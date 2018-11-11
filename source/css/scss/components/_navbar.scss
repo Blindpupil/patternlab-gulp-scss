@@ -1,0 +1,23 @@
+/*Navbar*/
+.navbar {
+  background: $black-transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+
+.navbar a:hover {
+  color: #ffc936;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 2px;
+}

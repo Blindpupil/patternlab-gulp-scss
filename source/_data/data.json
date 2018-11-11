@@ -1,0 +1,25 @@
+{
+  "title": "Psychiatrist Site",
+  "headerNavbar": [
+    {
+      "label": "Areas of Expertise",
+      "url": "#expertise",
+      "class": "active"
+    },
+    {
+      "label": "About me",
+      "url": "#aboutme",
+      "class": ""
+    },
+    {
+      "label": "Blog",
+      "url": "#blog",
+      "class": ""
+    },
+    {
+      "label": "Contact",
+      "url": "#contact",
+      "class": ""
+    }
+  ]
+}

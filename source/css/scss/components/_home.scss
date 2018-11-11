@@ -1,0 +1,273 @@
+/*General*/
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fbfbfb;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+h1 {
+  letter-spacing: 1.5px;
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1.5rem;
+  letter-spacing: 0.06rem;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  margin-bottom: 0;
+}
+
+small {
+  text-transform:uppercase;
+}
+
+
+.btn {
+  background-color: #000000;
+  border-radius: 0px;
+  color: white;
+  border-color: #000000;
+  font-weight: 600;
+  padding: 0.6rem 0.6rem;
+}
+
+.btn:hover {
+  background-color: #000000;
+  border-radius: 0px;
+  color: white;
+  border-color: #000000;
+  font-weight: 600;
+  padding: 0.6rem 0.6rem;
+}
+
+.btn:active {
+  background-color: #000000;
+  border-radius: 0px;
+  color: white;
+  border-color: #000000;
+  font-weight: 600;
+  padding: 0.6rem 0.6rem;
+}
+
+.btn:focus {
+  background-color: #000000;
+  border-radius: 0px;
+  color: white;
+  border-color: #000000;
+  font-weight: 600;
+  padding: 0.6rem 0.6rem;
+  box-shadow: 0 0 0 0.2rem rgba(255,201,54,.5);
+}
+
+.btn:focus {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+/*Header*/
+.herostyling {
+  position: relative;
+}
+
+.headertext {
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+  border-style:none;
+  border-radius: 0;
+  padding: 5.4rem 1.2rem 1.5em 1.2rem;
+}
+
+.headertext h1 {
+  font-weight: 800;
+}
+
+.headertext p {
+  margin-top: 9px;
+}
+
+/*Services cards*/
+.services .card {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.services .card {
+  position: relative;
+}
+
+.services .cardtitle {
+  vertical-align: middle;
+  background-color: #ffc936;
+  padding: 0.9rem 1.5rem 0.3rem 1.5rem;
+}
+
+.services .cardtitlehigher {
+  background-color: #ffc936;
+  padding: 1.34rem 0rem;
+}
+
+.services .card h4 {
+  font-weight: 800;
+}
+
+.services .card p {
+  padding: 0.6rem 1.2rem 2.4rem 1.2rem;
+}
+
+.services .card .btn {
+  position: absolute;
+  bottom: -1.2rem;
+  left: 1.2rem;
+  right: 1.2rem;
+}
+
+/*About me*/
+
+.aboutmecard {
+  position: relative;
+}
+
+.aboutmecard {
+  margin-top: 9rem;
+}
+
+.aboutmecontent {
+    padding: 6.3rem 2.1rem 2.4rem 0;
+}
+
+.aboutmecontent h4 {
+  font-weight: 800;
+}
+
+.aboutmecontent ul li {
+  padding-top: 0.6rem;
+}
+
+.luciaportrait {
+  max-width: 180px;
+  position: absolute;
+  top: -6rem;
+  left: 1.2rem;
+  right: 1.2rem;
+}
+
+/*Blog*/
+.blogimage {
+  max-width: 100%;
+}
+
+.blog .row {
+  margin-top: 3rem;
+}
+
+.blog .btn {
+  margin-top: 1.2rem;
+}
+
+/*Contactcontainer*/
+.contactbg {
+  background-image: url("img/yellowfield.png");
+  background-size: cover;
+  background-position: center center;
+  margin: 2.8rem 0 0 0;
+  padding: 2.8rem 0;
+}
+
+.contactcard {
+padding: 2.4rem 1.2rem;
+}
+
+.mailicon {
+  padding-left: 0.6rem;
+}
+
+form {
+  margin-top: 1.2rem;
+}
+
+/*footer*/
+
+footer {
+  padding: 1.5rem 0;
+  background-color: #000000;
+  color: white;
+}
+
+/*mediaquery*/
+
+.headerimage {
+  display: none;
+}
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+  .aboutmecontainer {
+    background-image: url("img/forestbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0.6rem 0 3.3rem 0;
+  }
+}
+
+
+@media (min-width: 992px) {
+
+  .headertext {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 165px;
+    width: 660px;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .headerimage {
+    width: 100%;
+    display: block;
+}
+
+  .aboutmecontainer {
+    margin: 2.8rem 0 0 0;
+    padding: 7.5rem 0 3.3rem 0;
+  }
+
+  .aboutmecard {
+    margin-top: 1.2rem;
+  }
+
+  .blogimage {
+    max-width: 100%;
+    order: 13;
+  }
+
+  .blogtext {
+  order: -1;
+  }
+}
